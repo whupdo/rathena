@@ -735,7 +735,7 @@
 	export_constant2("bNoWalkDelay",SP_NO_WALK_DELAY);
 	export_constant2("bMagicSubSize",SP_MAGIC_SUBSIZE);
 	export_constant2("bCritDefRate",SP_CRIT_DEF_RATE);
-	export_constant2("bWeaponSubRace",SP_WEAPON_SUBRACE);
+
 
 	/* equip indices */
 	export_constant(EQI_COMPOUND_ON);

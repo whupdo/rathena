@@ -195,15 +195,15 @@ RDMOPT_MDAMAGE_SIZE_SMALL_USER,{ bonus2 bMagicSubSize,Size_Small,getrandomoptinf
 RDMOPT_MDAMAGE_SIZE_MIDIUM_USER,{ bonus2 bMagicSubSize,Size_Medium,getrandomoptinfo(ROA_VALUE); }
 RDMOPT_MDAMAGE_SIZE_LARGE_USER,{ bonus2 bMagicSubSize,Size_Large,getrandomoptinfo(ROA_VALUE); }
 RDMOPT_ATTR_TOLERACE_ALL,{ bonus2 bSubEle,Ele_All,getrandomoptinfo(ROA_VALUE); }
-RDMOPT_RACE_WEAPON_TOLERACE_NOTHING,{ bonus2 bWeaponSubRace,RC_Formless,getrandomoptinfo(ROA_VALUE); }
-RDMOPT_RACE_WEAPON_TOLERACE_UNDEAD,{ bonus2 bWeaponSubRace,RC_Undead,getrandomoptinfo(ROA_VALUE); }
-RDMOPT_RACE_WEAPON_TOLERACE_ANIMAL,{ bonus2 bWeaponSubRace,RC_Brute,getrandomoptinfo(ROA_VALUE); }
-RDMOPT_RACE_WEAPON_TOLERACE_PLANT,{ bonus2 bWeaponSubRace,RC_Plant,getrandomoptinfo(ROA_VALUE); }
-RDMOPT_RACE_WEAPON_TOLERACE_INSECT,{ bonus2 bWeaponSubRace,RC_Insect,getrandomoptinfo(ROA_VALUE); }
-RDMOPT_RACE_WEAPON_TOLERACE_FISHS,{ bonus2 bWeaponSubRace,RC_Fish,getrandomoptinfo(ROA_VALUE); }
-RDMOPT_RACE_WEAPON_TOLERACE_DEVIL,{ bonus2 bWeaponSubRace,RC_Demon,getrandomoptinfo(ROA_VALUE); }
-RDMOPT_RACE_WEAPON_TOLERACE_HUMAN,{ bonus2 bWeaponSubRace,RC_DemiHuman,getrandomoptinfo(ROA_VALUE); bonus2 bWeaponSubRace,RC_Player,getrandomoptinfo(ROA_VALUE); }
-RDMOPT_RACE_WEAPON_TOLERACE_ANGEL,{ bonus2 bWeaponSubRace,RC_Angel,getrandomoptinfo(ROA_VALUE); }
-RDMOPT_RACE_WEAPON_TOLERACE_DRAGON,{ bonus2 bWeaponSubRace,RC_Dragon,getrandomoptinfo(ROA_VALUE); }
+RDMOPT_RACE_WEAPON_TOLERACE_NOTHING,{ bonus3 bSubRace,RC_Formless,getrandomoptinfo(ROA_VALUE),BF_WEAPON; }
+RDMOPT_RACE_WEAPON_TOLERACE_UNDEAD,{ bonus3 bSubRace,RC_Undead,getrandomoptinfo(ROA_VALUE),BF_WEAPON; }
+RDMOPT_RACE_WEAPON_TOLERACE_ANIMAL,{ bonus3 bSubRace,RC_Brute,getrandomoptinfo(ROA_VALUE),BF_WEAPON; }
+RDMOPT_RACE_WEAPON_TOLERACE_PLANT,{ bonus3 bSubRace,RC_Plant,getrandomoptinfo(ROA_VALUE),BF_WEAPON; }
+RDMOPT_RACE_WEAPON_TOLERACE_INSECT,{ bonus3 bSubRace,RC_Insect,getrandomoptinfo(ROA_VALUE),BF_WEAPON; }
+RDMOPT_RACE_WEAPON_TOLERACE_FISHS,{ bonus3 bSubRace,RC_Fish,getrandomoptinfo(ROA_VALUE),BF_WEAPON; }
+RDMOPT_RACE_WEAPON_TOLERACE_DEVIL,{ bonus3 bSubRace,RC_Demon,getrandomoptinfo(ROA_VALUE),BF_WEAPON; }
+RDMOPT_RACE_WEAPON_TOLERACE_HUMAN,{ bonus3 bSubRace,RC_DemiHuman,getrandomoptinfo(ROA_VALUE),BF_WEAPON; bonus3 bSubRace,RC_Player,getrandomoptinfo(ROA_VALUE),BF_WEAPON; }
+RDMOPT_RACE_WEAPON_TOLERACE_ANGEL,{ bonus3 bSubRace,RC_Angel,getrandomoptinfo(ROA_VALUE),BF_WEAPON; }
+RDMOPT_RACE_WEAPON_TOLERACE_DRAGON,{ bonus3 bSubRace,RC_Dragon,getrandomoptinfo(ROA_VALUE),BF_WEAPON; }
 // RDMOPT_RANGE_WEAPON_ATTACK_DAMAGE_TARGET,{}
 // RDMOPT_RANGE_WEAPON_ATTACK_DAMAGE_USER,{}

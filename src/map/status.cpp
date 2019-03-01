@@ -3446,7 +3446,6 @@ int status_calc_pc_sub(struct map_session_data* sd, enum e_status_calc_opt opt)
 		+ sizeof(sd->subele_script)
 		+ sizeof(sd->subdefele)
 		+ sizeof(sd->subrace)
-		+ sizeof(sd->weapon_subrace)
 		+ sizeof(sd->subclass)
 		+ sizeof(sd->subrace2)
 		+ sizeof(sd->subsize)
@@ -3550,6 +3549,7 @@ int status_calc_pc_sub(struct map_session_data* sd, enum e_status_calc_opt opt)
 	sd->add_drop.clear();
 	sd->itemhealrate.clear();
 	sd->subele2.clear();
+	sd->subrace3.clear();
 	sd->skilldelay.clear();
 
 	// Zero up structures...
