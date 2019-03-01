@@ -3712,6 +3712,11 @@ void pc_bonus2(struct map_session_data *sd,int type,int type2,int val)
 		if(sd->state.lr_flag != 2)
 			sd->subsize[type2]+=val;
 		break;
+	case SP_MAGIC_SUBSIZE: // bonus2 bMagicSubSize,s,x;
+		PC_BONUS_CHK_SIZE(type2,SP_MAGIC_SUBSIZE);
+		if(sd->state.lr_flag != 2)
+			sd->magic_subsize[type2]+=val;
+		break;
 	case SP_SUBRACE2: // bonus2 bSubRace2,mr,x;
 		PC_BONUS_CHK_RACE2(type2,SP_SUBRACE2);
 		if(sd->state.lr_flag != 2)

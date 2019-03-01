@@ -408,6 +408,7 @@ struct map_session_data {
 	int magic_addclass[CLASS_MAX];
 	int magic_addsize[SZ_MAX];
 	int magic_atk_ele[ELE_MAX];
+	int magic_subsize[SZ_MAX];
 	int critaddrace[RC_MAX];
 	int expaddrace[RC_MAX];
 	int expaddclass[CLASS_MAX];
