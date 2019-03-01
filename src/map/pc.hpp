@@ -163,7 +163,7 @@ struct weapon_data {
 
 	std::vector<s_item_bonus> add_dmg;
 	std::vector<s_addele2> addele2;
-	std::vector<s_addrace2> addrace2;
+	std::vector<s_addrace2> addrace3;
 };
 
 /// AutoSpell bonus struct
