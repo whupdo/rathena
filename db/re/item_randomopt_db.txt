@@ -166,7 +166,7 @@ RDMOPT_DAMAGE_SIZE_MIDIUM_USER,{ bonus2 bSubSize,Size_Medium,getrandomoptinfo(RO
 RDMOPT_DAMAGE_SIZE_LARGE_USER,{ bonus2 bSubSize,Size_Large,getrandomoptinfo(ROA_VALUE); }
 RDMOPT_DAMAGE_SIZE_PERFECT,{ bonus bNoSizeFix,1; }
 RDMOPT_DAMAGE_CRI_TARGET,{ bonus bCritAtkRate,getrandomoptinfo(ROA_VALUE); }
-RDMOPT_DAMAGE_CRI_USER,{ bonus bCriticalDef,getrandomoptinfo(ROA_VALUE); }
+RDMOPT_DAMAGE_CRI_USER,{ bonus bCritDefRate,getrandomoptinfo(ROA_VALUE); }
 RDMOPT_RANGE_ATTACK_DAMAGE_TARGET,{ bonus bLongAtkRate,getrandomoptinfo(ROA_VALUE); }
 RDMOPT_RANGE_ATTACK_DAMAGE_USER,{ bonus bLongAtkDef,getrandomoptinfo(ROA_VALUE); }
 RDMOPT_HEAL_VALUE,{ bonus bHealPower,getrandomoptinfo(ROA_VALUE); }

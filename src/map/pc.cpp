@@ -3257,6 +3257,10 @@ void pc_bonus(struct map_session_data *sd,int type,int val)
 			if(sd->state.lr_flag != 2)
 				sd->bonus.crit_atk_rate += val;
 			break;
+		case SP_CRIT_DEF_RATE:
+			if(sd->state.lr_flag != 2)
+				sd->bonus.crit_def_rate += val;
+			break;
 		case SP_NO_REGEN:
 			if(sd->state.lr_flag != 2)
 				sd->regen.state.block|=val;
@@ -8382,6 +8386,7 @@ int pc_readparam(struct map_session_data* sd,int type)
 #else
 			val = sd->castrate; break;
 #endif
+		case SP_CRIT_DEF_RATE: val = sd->bonus.crit_def_rate; break;
 		default:
 			ShowError("pc_readparam: Attempt to read unknown parameter '%d'.\n", type);
 			return -1;

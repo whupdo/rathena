@@ -168,6 +168,7 @@ Atk/Def
 bonus2 bSkillAtk,sk,n;    		Increases damage of skill sk by n%
 bonus bLongAtkRate,n;     		Increases damage of ranged attacks by n%
 bonus bCritAtkRate,n;     		Increases critical damage by +n%
+bonus bCritDefRate,n;			Decreases critical damage received by n%
 bonus bCriticalDef,n;     		Decreases the chance of being hit by critical hits by n%
 bonus2 bWeaponAtk,w,n;    		Adds n ATK when weapon of type w is equipped
 bonus2 bWeaponDamageRate,w,n;	Adds n% damage to normal attacks when weapon of type w is equipped
