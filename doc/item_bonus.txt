@@ -230,7 +230,7 @@ bonus2 bSubDefEle,e,x;    		+x% damage reduction from enemy with defense element
 bonus2 bAddRace,r,x;      		+x% physical damage against race r
 bonus2 bMagicAddRace,r,x; 		+x% magical damage against race r
 bonus2 bSubRace,r,x;      		+x% damage reduction against race r
-bonus2 bWeaponSubRace,r,x;		+x% physical damage reduction against race r
+bonus3 bSubRace,r,x,bf;    		+x% damage reduction against race r with trigger criteria bf 
 
 bonus2 bAddClass,c,x;     		+x% physical damage against class c
 bonus2 bMagicAddClass,c,x;		+x% magical damage against class c
